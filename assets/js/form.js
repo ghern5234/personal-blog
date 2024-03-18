@@ -13,3 +13,4 @@ function createAndRenderBlog() {
     blogs.push(blog);
     localStorage.setItem(JSON.stringify(blog));
 };
+
