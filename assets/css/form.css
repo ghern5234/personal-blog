@@ -1,3 +1,94 @@
-.input {
-    
-}
+body {
+    /* display: flex; */
+  }
+  /* Styling for theme toggle */
+  .themeSwitcher {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the My First Blog image */
+  .imageContainer {
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    width: 50%;
+    padding: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Styling for the form container border */
+  form {
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    width: 50%;
+    padding: 10px;
+    height: 100vh;
+  }
+  /* Styling for the input and text area boxes */
+  input,
+  textarea {
+    border: 1px solid black;
+    display: block;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    border-width: 1px;
+    color: #5f6368;
+    font-size: 1em;
+    height: 45px;
+    line-height: 20px;
+    margin: 0;
+    margin: 15px;
+    max-width: 100%;
+    padding: 8px 8px 8px 8px;
+  }
+  
+  /* styling for the input container */
+  .blogEntry {
+    display: flex;
+    flex-direction: column;
+    float: center;
+  }
+  /* Styling for input header */
+  h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30%;
+    font-size: 3em;
+  }
+  
+  /* Styling for cirlce image */
+  .circle {
+    background: #ff7a59;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-size: 4em;
+    padding-left: auto;
+    padding-right: auto;
+    margin: auto;
+  }
+  
+  /* Styling for submit button */
+  #submit {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 9px;
+  }
+  
+  /* Stying for input fields */
+  input {
+    width: 90%;
+    height: 20%
+  }
+  
+  textarea {
+    width: 90%;
+    height: 40%;
+  }
