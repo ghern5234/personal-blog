@@ -1,10 +1,9 @@
-body {
-    /* display: flex; */
-  }
+
   /* Styling for theme toggle */
   .themeSwitcher {
     padding-bottom: 10px;
     margin-bottom: 10px;
+    text-align: right;
   }
   
   /* Styling for the My First Blog image */
@@ -14,7 +13,7 @@ body {
     width: 50%;
     padding: auto;
     height: 100vh;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
   }
@@ -92,3 +91,7 @@ body {
     width: 90%;
     height: 40%;
   }
+
+.flexContainer {
+    display: flex;
+}
