@@ -7,7 +7,7 @@ const submitButton = document.getElementById("submit");
 
 function saveInfo(event) {
   event.preventDefault();
-//   if statement
+//   if statement for alert
   const formContent = {
     usernameInput: usernameInput.value,
     title: titleInput.value,

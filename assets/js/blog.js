@@ -15,3 +15,12 @@ for (const blog of blogInfo) {
     blogContainer.appendChild(blogElement);
 }
 
+const backButton = document.getElementById("btn");
+
+function returnAnchor(event) {
+    event.preventDefault();
+    const returnBtn = document.createElement("button")
+    window.location.href="./index.html";
+};
+
+backButton.addEventListener("click", returnAnchor)
