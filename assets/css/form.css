@@ -56,6 +56,7 @@ h2 {
 /* Styling for cirlce image */
 .circle {
   background: #ff7a59;
+  border: 2px solid black;
   width: 90%;
   height: 90%;
   border-radius: 50%;
@@ -88,5 +89,3 @@ textarea {
   display: flex;
 }
 
-p {
-}

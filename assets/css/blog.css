@@ -1,5 +1,5 @@
 div {
-  border: 1px solid black;
+  border: 2px solid black;
   margin: 0px;
 }
 
@@ -17,7 +17,7 @@ h2 {
 
 nav {
   display: block;
-  border: 1px solid black;
+  border: 2px solid black;
   text-align: end;
 }
 
@@ -26,6 +26,15 @@ h1 {
   text-align: left;
 }
 
-p {
+h3 {
     text-indent: 20px;
+    font-weight: normal;
+}
+
+footer {
+    font-size: 1.2em;
+}
+
+.signature {
+    font-family: 'La Belle Aurore';
 }
