@@ -1,6 +1,6 @@
 const blogContainer = document.getElementById("container");
 const blogInfo = JSON.parse(localStorage.getItem("formContent"));
-console.log("formContent", blogInfo);
+
 
 for (const blog of blogInfo) {
     const blogElement = document.createElement("div");
