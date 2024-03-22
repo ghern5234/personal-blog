@@ -1,13 +1,31 @@
+/* Styling for blog post containers */
 div {
   border: 2px solid black;
   margin: 0px;
+  font-family: 'Give You Glory';
 }
 
+/* Padding and margin for button */
 button {
   margin: 5px;
   padding: 5px;
 }
 
+/* Styling for nav */
+nav {
+    display: block;
+    border: 2px solid black;
+    text-align: end;
+    font-family: 'Give You Glory';
+  }
+
+/* Styling for page title */
+h1 {
+    display: inline-block;
+    text-align: left;
+  }
+
+/* Styling for blog post titles*/ 
 h2 {
   font-weight: 30px;
   font-size: 2em;
@@ -15,26 +33,21 @@ h2 {
   display: inline-block;
 }
 
-nav {
-  display: block;
-  border: 2px solid black;
-  text-align: end;
-}
 
-h1 {
-  display: inline-block;
-  text-align: left;
-}
-
+/* Styling for blog content */
 h3 {
     text-indent: 20px;
     font-weight: normal;
 }
 
+/* Styling for footer */
 footer {
     font-size: 1.2em;
 }
 
+/* Styling for signature */
 .signature {
     font-family: 'La Belle Aurore';
+    font-size: 1.5em;
 }
+

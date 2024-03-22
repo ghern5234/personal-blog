@@ -1,14 +1,17 @@
+/* Styling for light mode */
+.light {
+    background-color: white;
+    color: black;
+  }
+
+/* Styling for dark mode */
 .dark {
   background-color: black;
   color: white;
   border: 2px solid white;
 }
 
-.light {
-  background-color: white;
-  color: black;
-}
-
+/* Styling for toggle button icon */
 .lightbulb {
   font-size: 2.5em;
 }
